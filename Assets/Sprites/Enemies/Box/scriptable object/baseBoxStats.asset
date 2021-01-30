@@ -17,3 +17,4 @@ MonoBehaviour:
   drop: Love
   color: {r: 0.72697556, g: 1, b: 0, a: 1}
   enemyHealth: 5
+  TargetPos: {x: 1, y: 1}
