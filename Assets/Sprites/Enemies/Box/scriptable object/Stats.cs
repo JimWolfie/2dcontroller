@@ -10,6 +10,7 @@ public class Stats : ScriptableObject
 	public string drop;
 	public Color color;
 	public int enemyHealth;
+	public Vector2 TargetPos;
  
   
 }
