@@ -190,7 +190,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"stats","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Speed","value":{"$content":1.1,"$type":"System.Single"},"$version":"A"},{"name":"Drop","value":{"$content":"\"\"","$type":"System.String"},"$version":"A"},{"name":"EnemyHealth","value":{"$content":0,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"stats","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Speed","value":{"$content":1.1,"$type":"System.Single"},"$version":"A"},{"name":"Drop","value":{"$content":"\"\"","$type":"System.String"},"$version":"A"},{"name":"EnemyHealth","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"TargetPos","value":{"x":0.0,"y":0.0,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 11400000, guid: 03ac24ca6d1514c49a13b1ec57c89c5b, type: 2}
 --- !u!114 &8152957189337903788
