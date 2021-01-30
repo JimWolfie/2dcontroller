@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed85ecec7a36cba4e9ffcb898618aa5c, type: 3}
+  m_Name: baseBoxStats
+  m_EditorClassIdentifier: 
+  _name: Jeff
+  speed: 10
+  drop: Love
+  color: {r: 0.72697556, g: 1, b: 0, a: 1}
+  enemyHealth: 5
