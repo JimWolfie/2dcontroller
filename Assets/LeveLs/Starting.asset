@@ -18,5 +18,5 @@ MonoBehaviour:
   - prince
   EntryText: Hello
   ExitText: good bye
-  storyIndex: 0
-  noStoryLeft: 0
+  storyIndex: 1
+  noStoryLeft: 1
