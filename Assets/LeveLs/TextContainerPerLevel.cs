@@ -13,7 +13,7 @@ public class TextContainerPerLevel : ScriptableObject
 	
 	public void IncrementStory(){
 		storyIndex +=1;
-		if(Story.Count<storyIndex){
+		if(Story.Count<=storyIndex){
 			storyIndex = 0;
 			noStoryLeft=true;
 		}

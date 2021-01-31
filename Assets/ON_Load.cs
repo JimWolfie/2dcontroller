@@ -11,7 +11,7 @@ public class ON_Load : MonoBehaviour
 	public GameObject menu;
 	public GameObject loadingInterface;
 	public Image progressbar;
-	public TextMeshPro text;
+
 	
 	List<AsyncOperation> scenesToLoad = new List<AsyncOperation>();
 	
@@ -21,7 +21,7 @@ public class ON_Load : MonoBehaviour
 		HideMenu();
 		ShowLoadingScreen();
 		scenesToLoad.Add(SceneManager.LoadSceneAsync("SampleScene"));
-		scenesToLoad.Add(SceneManager.LoadSceneAsync("StartingArea", LoadSceneMode.Additive));
+		
 		StartCoroutine(LoadingScrene());
 		
 		
