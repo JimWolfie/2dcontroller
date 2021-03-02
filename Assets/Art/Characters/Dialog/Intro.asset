@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6815b35d8370d384384cc21804b12c7a, type: 3}
+  m_Name: Intro
+  m_EditorClassIdentifier: 
+  speakerLeft: {fileID: 11400000, guid: f4b606ecb1a3e0a4787de8ea52487269, type: 2}
+  spreakerRight: {fileID: 11400000, guid: 4e25383dc2962cc4594b936a226f0d9e, type: 2}
+  question: {fileID: 0}
+  nextDialog: {fileID: 0}
+  lines:
+  - character: {fileID: 11400000, guid: f4b606ecb1a3e0a4787de8ea52487269, type: 2}
+    text: howdy pardner
+  - character: {fileID: 11400000, guid: 4e25383dc2962cc4594b936a226f0d9e, type: 2}
+    text: I AM OF DESIRE EGG
+  - character: {fileID: 11400000, guid: 651b0b96cae4f3749bb301532c6d8308, type: 2}
+    text: GIVE E G G G OR D IE
+  - character: {fileID: 11400000, guid: 0af6eabfb6f3f744da0cd8dae929d349, type: 2}
+    text: ' E G G I S WANT?'
+  - character: {fileID: 11400000, guid: 651b0b96cae4f3749bb301532c6d8308, type: 2}
+    text: E G G !  !!!!!!!!
+  - character: {fileID: 11400000, guid: c4649c7a110405147bc4456929e8a6ba, type: 2}
+    text: HAVE EGG
+  - character: {fileID: 11400000, guid: 591bf4038e1e88140bdf2b3a68ac2a50, type: 2}
+    text: EGG?
+  - character: {fileID: 11400000, guid: c4649c7a110405147bc4456929e8a6ba, type: 2}
+    text: EGG!!!!!!!
+  - character: {fileID: 11400000, guid: ba35fc3e803ce034cab4545227ed7062, type: 2}
+    text: Egg.
+  - character: {fileID: 11400000, guid: c4649c7a110405147bc4456929e8a6ba, type: 2}
+    text: Egg.

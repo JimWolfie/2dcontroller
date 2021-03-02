@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fda8a2faa97b1bc47a719e70530baac4, type: 3}
+  m_Name: eategg
+  m_EditorClassIdentifier: 
+  text: DO SHAD IS EAT EGG?
+  choices:
+  - text: DA
+    dialog: {fileID: 11400000, guid: 16e57f2f824dba746835df0fbc56d1ef, type: 2}
+  - text: NYET
+    dialog: {fileID: 11400000, guid: 4f7ddda98112109408fea2849f8d9232, type: 2}
