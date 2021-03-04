@@ -9,7 +9,7 @@ public class Inventory: ScriptableObject
 {
     [SerializeField] private VoidEvent onInventoryItemsUpdated = null;
     [SerializeField] private ItemSlot testItemSlot = new ItemSlot();
-    public InventoryController InventoryController {get;} = new InventoryController(20);
+    public InventoryController InventoryController {get;} = new InventoryController(6);
 
     public void OnEnable()
     {

@@ -10,18 +10,30 @@ public class ItemDestroyer : MonoBehaviour
 
     private int slotIndex = 0;
 
-    private void OnDisable()=> slotIndex =-1;
+    private void OnDisable() => slotIndex =-1;
 
     public void Activate(ItemSlot itemSlot, int slotIndex)
     {
-        this.slotIndex = slotIndex;
-        confirmText.text = $"Would you Like to destroy {itemSlot.quantity}{itemSlot.item.name}? ";
-        gameObject.SetActive(true);
+        UseItem(itemSlot, slotIndex);
     }
     public void Destroy()
     {
-        inventory.InventoryController.RemoveAt(slotIndex);
-        gameObject.SetActive(false);
+        if(slotIndex!=-1)
+        {
+
+            inventory.InventoryController.RemoveAt(slotIndex);
+            gameObject.SetActive(false);
+        }
+
     }
 
+    public IEnumerator UseItem(ItemSlot itemSlot, int slotIndex)
+    {
+        this.slotIndex = slotIndex;
+        confirmText.text = $"Attack!";
+        yield return new WaitForEndOfFrame();
+        gameObject.SetActive(true);
+        yield return new WaitForSeconds(0.05f);
+        Destroy();
+    }
 }

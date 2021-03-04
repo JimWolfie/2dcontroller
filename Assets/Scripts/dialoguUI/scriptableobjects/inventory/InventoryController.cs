@@ -138,11 +138,22 @@ public class InventoryController :IItemContainer
                     OnItemUpdated.Invoke();
                     return;
                 }
-                
+	            
             }
         }
         itemSlots[index1] = secondItem;
-        itemSlots[index2] = firstItem;
+	    itemSlots[index2] = firstItem;
         OnItemUpdated.Invoke();
     }
+	public bool isListEmpty()
+	{
+		for(int i = 0; i< itemSlots.Length;i++)
+		{
+			if(itemSlots[i]!=null){return false;}
+			
+			
+		}
+		return true;
+	}
+    
 }
