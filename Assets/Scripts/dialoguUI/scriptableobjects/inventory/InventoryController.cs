@@ -21,6 +21,8 @@ public class InventoryController :IItemContainer
             {
                 if(itemSlots[i].item == item.item)
                 {
+                    Debug.Log(itemSlots[i].item.name);
+                    Debug.Log(item.item.name);
                     int remainingSpace = itemSlots[i].item.MaxStack - itemSlots[i].quantity;
                     if (itemSlots[i].quantity <= remainingSpace)
                     {
@@ -149,7 +151,7 @@ public class InventoryController :IItemContainer
 	{
 		for(int i = 0; i< itemSlots.Length;i++)
 		{
-			if(itemSlots[i]!=null){return false;}
+			if(itemSlots[i].item!=null){return false;}
 			
 			
 		}

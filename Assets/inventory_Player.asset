@@ -16,3 +16,6 @@ MonoBehaviour:
   testItemSlot:
     item: {fileID: 11400000, guid: 2ca14de13735c9e48b6083561fcd7514, type: 2}
     quantity: 1
+  reItemSlot:
+    item: {fileID: 11400000, guid: 4f5cafb3f9b06c645809fc90f5d0ab66, type: 2}
+    quantity: 1

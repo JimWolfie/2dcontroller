@@ -9,6 +9,7 @@ public class Inventory: ScriptableObject
 {
     [SerializeField] private VoidEvent onInventoryItemsUpdated = null;
     [SerializeField] private ItemSlot testItemSlot = new ItemSlot();
+    [SerializeField] private ItemSlot reItemSlot = new ItemSlot();
     public InventoryController InventoryController {get;} = new InventoryController(6);
 
     public void OnEnable()
@@ -23,5 +24,9 @@ public class Inventory: ScriptableObject
     public void TestAdd()
     {
         InventoryController.AddItem(testItemSlot);
+    }
+    public void QuestAdd()
+    {
+        InventoryController.AddItem(reItemSlot);
     }
 }
